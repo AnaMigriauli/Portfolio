@@ -18,4 +18,5 @@
 .menu-list {
   list-style: none;
   background-color: var(--black--01);
+  z-index: 5;
 }

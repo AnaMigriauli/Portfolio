@@ -1,0 +1,26 @@
+.homePage {
+  width: 382px;
+  height: 681px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 200px 36px;
+}
+
+.greeting {
+  color: var(--white);
+  margin-bottom: 15px;
+}
+.userName {
+  color: var(--white);
+  margin-bottom: 10px;
+}
+.userRole {
+  color: var(--grey);
+  margin-bottom: 10px;
+}
+.contactLinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
