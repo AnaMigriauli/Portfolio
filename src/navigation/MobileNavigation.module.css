@@ -1,0 +1,21 @@
+.mobile-navigation {
+  width: 382px;
+  height: 57px;
+  background-color: var(--black);
+  border-bottom: 1px solid var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.menu {
+  width: 31px;
+  height: 17.75px;
+  background: none;
+  margin-right: 20.5px;
+  border: none;
+  cursor: pointer;
+}
+.menu-list {
+  list-style: none;
+  background-color: var(--black--01);
+}

@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+:root {
+  scroll-behavior: smooth;
+  --black: #000;
+  --black--01: rgba(0, 0, 0, 0.4);
+  --white: #fff;
+}
