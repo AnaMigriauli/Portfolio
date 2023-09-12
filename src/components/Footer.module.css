@@ -1,0 +1,18 @@
+.footer {
+  width: 382px;
+  height: auto;
+  background-color: var(--black);
+  padding: 15px 20px;
+}
+.footer p {
+  color: var(--white);
+}
+.contact {
+  display: flex;
+  border-bottom: 2px solid var(--white);
+}
+.contactLinks {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+}

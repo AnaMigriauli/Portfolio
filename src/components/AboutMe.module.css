@@ -1,0 +1,32 @@
+.about-container {
+  width: 382px;
+  background: var(--light-gray);
+  padding: 75px 45px 97px 45px;
+}
+.header {
+  background: linear-gradient(to right, var(--pink), var(--blue));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 25px;
+  padding: 10px 15px;
+}
+.about-text {
+  color: var(--blue-01);
+  font-family: "Montserrat", sans-serif;
+}
+
+.icon-container img {
+  transform: scale(1);
+  transition: transform 0.3s ease;
+  width: 55px;
+}
+.icon-container img:hover {
+  transform: scale(1.2);
+}
+.skills {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}

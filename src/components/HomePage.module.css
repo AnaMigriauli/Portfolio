@@ -4,23 +4,48 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  padding: 200px 36px;
+  padding: 140px 36px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .greeting {
   color: var(--white);
   margin-bottom: 15px;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
 }
 .userName {
-  color: var(--white);
+  background: linear-gradient(to right, var(--pink), var(--blue));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   margin-bottom: 10px;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  font-family: "Montserrat", sans-serif;
 }
 .userRole {
   color: var(--grey);
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
 }
 .contactLinks {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  gap: 12%;
+}
+.mailLink {
+  cursor: pointer;
+}
+.githubLink {
+  cursor: pointer;
+}
+
+.zoom-text {
+  /* transform: scale(0.5); */
+  transition: transform 0.3s ease;
 }

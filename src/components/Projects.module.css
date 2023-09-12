@@ -1,0 +1,60 @@
+.project-card {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+  background: var(--white);
+  box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+.img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.card {
+  padding: 5px 10px;
+}
+.title {
+  color: var(--black);
+  text-align: start;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.description {
+  font-size: 6px;
+  color: var(--blue-01);
+}
+.stack {
+  font-size: 8px;
+  color: var(--blue-01);
+  margin-bottom: 2px;
+}
+.links-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+}
+.links-container div {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+}
+.link {
+  color: var(--black);
+  font-size: 8px;
+}
+.icon {
+  width: 12px;
+  height: 12px;
+}
+.projects {
+  background: linear-gradient(to right, var(--pink), var(--blue));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 25px;
+  padding: 10px 15px;
+}
