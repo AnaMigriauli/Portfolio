@@ -4,21 +4,20 @@ import github from "../assets/images/github.svg";
 import mail from "../assets/images/mail.svg";
 import classes from "./HomePage.module.css";
 import { useEffect, useState } from "react";
-const HomePage = () => {
+const HomePage = ({ menuIsOpen }) => {
   const [scale, setScale] = useState(1); // initial scale value
 
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      let scaleValue = 1 + scrollPosition / 3000; // Adjust the denominator to control the zoom speed
+      let scaleValue = 1 + scrollPosition / 3000;
 
-      if (scaleValue > 2) scaleValue = 2; // Cap the maximum zoom level
+      if (scaleValue > 2) scaleValue = 2;
       setScale(scaleValue);
     };
 
     window.addEventListener("scroll", handleScroll);
 
-    // Clean up the event listener when the component is unmounted
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -26,7 +25,7 @@ const HomePage = () => {
 
   return (
     <div
-      className={classes.homePage}
+      className={`${classes.homePage} ${menuIsOpen ? classes.blur : ""}`}
       style={{
         backgroundImage: `url(${backgroundImage})`,
       }}
@@ -35,7 +34,7 @@ const HomePage = () => {
         className={classes.greeting + " " + classes["zoom-text"]}
         style={{ transform: `scale(${scale})` }}
       >
-        Hi, I am
+        Hi👋, I am
       </h1>
       <p
         className={classes.userName + " " + classes["zoom-text"]}

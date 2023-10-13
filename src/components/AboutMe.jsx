@@ -41,15 +41,31 @@ const AboutMe = () => {
       <div className={classes.skills}>
         <h2 className={classes.header}>MY TECH STACK</h2>
         <div className={classes["icon-container"]}>
-          <img src={js} alt="js" />
-          <img src={react} alt="react " />
-          <img src={html} alt="html" />
-          <img src={css} alt="css" />
-          <img src={git} alt="git" />
-          <img src={vscode} alt="VS code" />
-          <img src={scss} alt="SCSS" />
-          <img src={bootstrap} alt="SCSS" />
-          <img src={figma} alt="SCSS" />
+          <img className={classes["rotate-infinite"]} src={js} alt="js" />
+          <img
+            className={classes["rotate-infinite-01"]}
+            src={react}
+            alt="react "
+          />
+          <img className={classes["rotate-infinite"]} src={html} alt="html" />
+          <img className={classes["rotate-infinite-02"]} src={css} alt="css" />
+          <img className={classes["rotate-infinite-01"]} src={git} alt="git" />
+          <img
+            className={classes["rotate-infinite"]}
+            src={vscode}
+            alt="VS code"
+          />
+          <img className={classes["rotate-infinite"]} src={scss} alt="SCSS" />
+          <img
+            className={classes["rotate-infinite-01"]}
+            src={bootstrap}
+            alt="SCSS"
+          />
+          <img
+            className={classes["rotate-infinite-02"] + " " + classes.figma}
+            src={figma}
+            alt="SCSS"
+          />
         </div>
       </div>
       <Projects />

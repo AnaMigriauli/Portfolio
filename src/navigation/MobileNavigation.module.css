@@ -2,7 +2,7 @@
   width: 382px;
   height: 57px;
   background-color: var(--black);
-  border-bottom: 1px solid var(--white);
+  border-bottom: 2px solid var(--pink);
   display: flex;
   align-items: center;
   justify-content: right;
@@ -17,6 +17,22 @@
 }
 .menu-list {
   list-style: none;
-  background-color: var(--black--01);
-  z-index: 5;
+  width: 382px;
+  background-color: var(--black-02);
+  position: absolute;
+  z-index: 1000;
+  color: var(--white);
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+.menu-list li {
+  padding: 15px 10px;
+  transition: transform 0.3s ease-in-out;
+  font-size: 14px;
+}
+.menu-list li:hover {
+  transform: scale(1.5);
+  color: var(--pink);
 }

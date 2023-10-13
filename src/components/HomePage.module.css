@@ -13,7 +13,7 @@
   margin-bottom: 15px;
   font-size: 25px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-family: "Montserrat", sans-serif;
 }
 .userName {
@@ -30,7 +30,8 @@
 }
 .userRole {
   color: var(--grey);
-  margin-bottom: 20px;
+  font-size: 25px;
+  margin-bottom: 30px;
   font-family: "Montserrat", sans-serif;
 }
 .contactLinks {
@@ -48,4 +49,7 @@
 .zoom-text {
   /* transform: scale(0.5); */
   transition: transform 0.3s ease;
+}
+.blur {
+  filter: blur(3px);
 }

@@ -44,7 +44,7 @@ const Projects = () => {
   ];
 
   return (
-    <div>
+    <div className={classes["projects-container"]}>
       <h1 className={classes.projects}>PROJECTS</h1>
       {project.map((proj) => (
         <div className={classes["project-card"]} key={proj.title}>
