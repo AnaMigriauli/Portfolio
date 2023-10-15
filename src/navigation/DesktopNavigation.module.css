@@ -1,0 +1,28 @@
+.desktop-navigation {
+  width: 100%;
+  height: 57px;
+  background-color: var(--black);
+  border-bottom: 2px solid var(--pink);
+  display: flex;
+  justify-content: center;
+}
+.navigation-list {
+  list-style: none;
+  color: var(--white);
+  display: flex;
+  gap: 45px;
+  align-items: center;
+}
+.navigation-list li {
+  transition: transform 0.3s ease-in-out;
+  font-size: 16px;
+  cursor: pointer;
+}
+.navigation-list li:hover {
+  transform: scale(1.5);
+  color: var(--pink);
+}
+.navigation-list li:last-child {
+  font-weight: 700;
+  color: var(--blue);
+}

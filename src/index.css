@@ -7,16 +7,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Satisfy", cursive;
 }
 :root {
   scroll-behavior: smooth;
+
   --black: #000;
   --black--01: rgba(0, 0, 0, 0.4);
   --black-02: #000000e3;
   --grey: #909090;
   --dark-mode: #191919;
-  --blue-01: #42446e;
+  --blue-01: #575a8f;
   --white: #fff;
   --pink: #e70faa;
   --blue: #00c0fd;

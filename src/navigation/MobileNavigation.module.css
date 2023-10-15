@@ -1,5 +1,6 @@
 .mobile-navigation {
-  width: 382px;
+  /* width: 382px; */
+  width: 100%;
   height: 57px;
   background-color: var(--black);
   border-bottom: 2px solid var(--pink);
@@ -17,7 +18,8 @@
 }
 .menu-list {
   list-style: none;
-  width: 382px;
+  /* width: 382px; */
+  width: 100%;
   background-color: var(--black-02);
   position: absolute;
   z-index: 1000;
@@ -36,3 +38,7 @@
   transform: scale(1.5);
   color: var(--pink);
 }
+/*
+@media(min-width:550px){
+
+}; */

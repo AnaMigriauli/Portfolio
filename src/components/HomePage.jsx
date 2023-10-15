@@ -30,44 +30,49 @@ const HomePage = ({ menuIsOpen }) => {
         backgroundImage: `url(${backgroundImage})`,
       }}
     >
-      <h1
-        className={classes.greeting + " " + classes["zoom-text"]}
-        style={{ transform: `scale(${scale})` }}
-      >
-        Hi👋, I am
-      </h1>
-      <p
-        className={classes.userName + " " + classes["zoom-text"]}
-        style={{ transform: `scale(${scale})` }}
-      >
-        Ana Migriauli
-      </p>
-      <p
-        className={classes.userRole + " " + classes["zoom-text"]}
-        style={{ transform: `scale(${scale})` }}
-      >
-        Junior React developer
-      </p>
-      <div className={classes.contactLinks}>
-        <a className={classes.mailLink}>
-          <img src={mail} alt="mail" />
-        </a>
-        <a
-          className={classes.githubLink}
-          href={"https://github.com/AnaMigriauli"}
-          target="_blank"
-          rel="noopener noreferrer"
+      <div className={classes["home-page-text"]}>
+        <h1
+          className={classes.greeting + " " + classes["zoom-text"]}
+          style={{ transform: `scale(${scale})` }}
         >
-          <img src={github} alt="GitHub" />
-        </a>
-        <a
-          className={classes.linkedinLink}
-          href={"https://www.linkedin.com/in/ana-migriauli-803378214/"}
-          target="_blank"
-          rel="noopener noreferrer"
+          Hi👋, I am
+        </h1>
+        <p
+          className={classes.userName + " " + classes["zoom-text"]}
+          style={{ transform: `scale(${scale})` }}
         >
-          <img src={linkedin} alt="LinkedIn" />
-        </a>
+          Ana Migriauli
+        </p>
+        <p
+          className={classes.userRole + " " + classes["zoom-text"]}
+          style={{ transform: `scale(${scale})` }}
+        >
+          Junior Front-End React developer
+        </p>
+        <div className={classes.contactLinks}>
+          <a
+            className={classes.mailLink}
+            href="mailto:anamigriauli1994@gmail.com"
+          >
+            <img src={mail} alt="mail" />
+          </a>
+          <a
+            className={classes.githubLink}
+            href={"https://github.com/AnaMigriauli"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={github} alt="GitHub" />
+          </a>
+          <a
+            className={classes.linkedinLink}
+            href={"https://www.linkedin.com/in/ana-migriauli-803378214/"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={linkedin} alt="LinkedIn" />
+          </a>
+        </div>
       </div>
     </div>
   );

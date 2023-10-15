@@ -1,10 +1,7 @@
-import { useState } from "react";
 import burgerMenu from "../assets/images/menu-icon.svg";
 import burgerMenuClose from "../assets/images/menu-close-icon.svg";
 import classes from "./MobileNavigation.module.css";
 const MobileNavigation = ({ menuIsOpen, setMenuIsOpen }) => {
-  // const [menuIsOpen, setMenuIsOpen] = useState(false);
-
   return (
     <div>
       <div className={classes["mobile-navigation"]}>

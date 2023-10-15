@@ -1,5 +1,5 @@
 .about-container {
-  width: 382px;
+  width: 100%;
   background: var(--dark-mode);
   padding: 75px 45px 97px 45px;
   border-top: 2px solid var(--pink);
@@ -10,32 +10,32 @@
   background-clip: text;
   color: transparent;
   text-align: center;
-  margin-bottom: 25px;
   font-size: 25px;
   padding: 10px 15px;
+  margin-bottom: 15px;
 }
+
 .about-text {
   color: var(--blue-01);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Satisfy", cursive;
 }
 .icon-container {
   display: flex;
-  gap: 4%;
 }
 
 .icon-container img {
-  /* transform: scale(1);
-  transition: transform 0.3s ease; */
   width: 8%;
 }
 .figma {
   height: 25px;
 }
-/* .icon-container img:hover {
-  transform: scale(1.2);
-} */
+
 .skills {
   margin-top: 35px;
+}
+.skills p {
+  color: var(--white);
+  font-size: 12px;
   margin-bottom: 35px;
 }
 @keyframes rotate {
@@ -47,11 +47,48 @@
   }
 }
 .rotate-infinite {
-  animation: rotate 2s linear infinite;
+  animation: rotate 5s linear infinite;
 }
 .rotate-infinite-01 {
   animation: rotate 15s linear infinite;
 }
 .rotate-infinite-02 {
   animation: rotate 10s linear infinite;
+}
+
+@media (min-width: 550px) {
+  .about-me {
+    padding: 30px;
+    border: 1px solid var(--blue);
+    border-radius: 28px;
+    margin-top: 90px;
+  }
+  .header {
+    width: 250px;
+    margin-bottom: 20px;
+  }
+  .about-text {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+    margin-bottom: 120px;
+  }
+  .skills p {
+    color: var(--white);
+    font-size: 16px;
+    margin-bottom: 45px;
+  }
+  .icon-container {
+    justify-content: space-between;
+    width: 100%;
+  }
+  .icon-container img:last-child {
+    width: 85px;
+    height: 105px;
+  }
 }

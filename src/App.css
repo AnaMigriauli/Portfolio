@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "Montserrat-Bold";
   src: url("./assets/font/Montserrat-Bold.ttf") format("ttf");
 }
@@ -10,5 +10,14 @@
 
 @font-face {
   font-family: "Montserrat-ExtraBold";
-  src: url("./assets/font/Montserrat-ExtraBold.ttf") format("ttf");
-}
+  src: url("./assets/font/Montserrat-ExtraBold.ttf") format("ttf"); 
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap");
+
+/* .satisfy{
+  font-family: 'Satisfy', cursive;
+} */
+
+/* font-family: 'Mulish', sans-serif; */

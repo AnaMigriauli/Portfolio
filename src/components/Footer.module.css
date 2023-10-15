@@ -1,5 +1,5 @@
 .footer {
-  width: 382px;
+  width: 100%;
   height: auto;
   background-color: var(--black);
   padding: 15px 20px;
@@ -31,10 +31,23 @@
 .text {
   color: var(--white);
   font-size: 12px;
+  font-family: "Satisfy", cursive;
 }
 .love {
   color: var(--pink);
 }
 .coffee {
   color: var(--blue);
+}
+@media (min-width: 550px) {
+  .contact div {
+    font-size: 16px;
+  }
+  .contactLinks {
+    gap: 15px;
+  }
+  .contactLinks a img {
+    width: 40px;
+    height: 40px;
+  }
 }

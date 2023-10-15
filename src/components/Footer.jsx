@@ -3,7 +3,7 @@ import linkedin from "../assets/images/linkedin.svg";
 import github from "../assets/images/github.svg";
 const Footer = () => {
   return (
-    <div className={classes.footer}>
+    <div className={classes.footer} id="contactMe">
       <div className={classes.contact}>
         <div>
           <p className={classes.number}>+995 511 12 47 17</p>
