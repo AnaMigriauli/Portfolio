@@ -6,7 +6,7 @@ const Footer = () => {
     <div className={classes.footer} id="contactMe">
       <div className={classes.contact}>
         <div>
-          <p className={classes.number}>+995 511 12 47 17</p>
+          <p className={classes.number}>+995 557 35 38 94</p>
           <p className={classes.mail}>anamigriauli1994@gmail.com</p>
         </div>
         <div className={classes.contactLinks}>

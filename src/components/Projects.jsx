@@ -1,11 +1,11 @@
-import interactiveCard from "../assets/images/interactive-card.svg";
-import toDoList from "../assets/images/To-Do-List.svg";
-import githubApi from "../assets/images/github-api.svg";
-import passwordGenerator from "../assets/images/passwordGenerator.svg";
+import interactiveCard from "../assets/images/Screenshot 2023-10-17 184647.png";
+import toDoList from "../assets/images/to-do-list.png";
+import githubApi from "../assets/images/gitHub.png";
+import passwordGenerator from "../assets/images/passwordGenerator.png";
 import classes from "./Projects.module.css";
 import linkChain from "../assets/images/akar-icons_link-chain.svg";
 import github from "../assets/images/akar-icons_github-fill.svg";
-import dictionary from "../assets/images/dictionary.svg";
+import dictionary from "../assets/images/dictionary.png";
 const Projects = () => {
   const project = [
     {
@@ -106,17 +106,16 @@ const Projects = () => {
           </div>
         ))}
       </div>
-      <div className={classes["more-projects"]}>
+      <button
+        className={classes["more-projects"]}
+        onClick={() => {
+          window.open("https://github.com/AnaMigriauli", "_blank");
+        }}
+      >
         <p>More projects I’ve worked on</p>
-        <a
-          className={classes.githubLink}
-          href={"https://github.com/AnaMigriauli"}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={github} alt="GitHub" />
-        </a>
-      </div>
+
+        <img src={github} alt="GitHub" />
+      </button>
     </div>
   );
 };
