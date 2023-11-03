@@ -6,8 +6,37 @@ import classes from "./Projects.module.css";
 import linkChain from "../assets/images/akar-icons_link-chain.svg";
 import github from "../assets/images/akar-icons_github-fill.svg";
 import dictionary from "../assets/images/dictionary.png";
+import memoryGame from "../assets/images/Screenshot 2023-11-03 122850.png";
+import ticTacToe from "../assets/images/Screenshot 2023-11-03 115743.png";
 const Projects = () => {
   const project = [
+    {
+      title: "Tic Tac Toe",
+      description:
+        "This is a classic Tic Tac Toe game built with React and Styled Components",
+      techStack: ["React, styled-components "],
+      liveLink: "https://anamigriauli.github.io/Tic-Tac-Toe-React/",
+      codeLink: "https://github.com/AnaMigriauli/Tic-Tac-Toe-React",
+      imageUrl: ticTacToe,
+    },
+    {
+      title: "Memory Game",
+      description:
+        "Memory Game is a fun game that tests your ability to remember card locations",
+      techStack: ["React, styled-components, Custom Hook, useReducer, Portals"],
+      liveLink: "https://anamigriauli.github.io/Memory-Game-React/",
+      codeLink: "https://github.com/AnaMigriauli/Memory-Game-React",
+      imageUrl: memoryGame,
+    },
+    {
+      title: "Dictionary Web App",
+      description:
+        "It allows users to search for words and retrieve definitions, synonyms, and other related data",
+      techStack: ["React,Tailwind CSS,Context API,Custom Hooks"],
+      liveLink: "https://anamigriauli.github.io/Dictionary-Web-App-React/",
+      codeLink: "https://github.com/AnaMigriauli/Dictionary-Web-App-React",
+      imageUrl: dictionary,
+    },
     {
       title: "Interactive Card Details Form",
       description:
@@ -45,15 +74,6 @@ const Projects = () => {
       liveLink: "https://anamigriauli.github.io/Password-Generator-App-React/",
       codeLink: "https://github.com/AnaMigriauli/Password-Generator-App-React",
       imageUrl: passwordGenerator,
-    },
-    {
-      title: "Dictionary Web App",
-      description:
-        "It allows users to search for words and retrieve definitions, synonyms, and other related data",
-      techStack: ["React,Tailwind CSS,Context API,Custom Hooks"],
-      liveLink: "https://anamigriauli.github.io/Dictionary-Web-App-React/",
-      codeLink: "https://github.com/AnaMigriauli/Dictionary-Web-App-React",
-      imageUrl: dictionary,
     },
   ];
 
