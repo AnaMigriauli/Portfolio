@@ -18,23 +18,18 @@ const AboutMe = () => {
       <div className={classes["about-me"]} id="aboutMe">
         <h2 className={classes.header}>ABOUT ME</h2>
         <p className={classes["about-text"]}>
-          Hello! My name is Ana Migriauli. My academic adventure began at Grigol
-          Robakidze University, where I earned a degree in Business
-          Administration with a specialization in Finance. Now, I've shifted
-          into the world of technology. As a highly motivated individual, I
+          Hello ! My name is Ana . As a highly motivated individual, I
           consistently welcome new challenges and persistently explore
-          opportunities to enhance my skills. Engaging in daily coding
-          challenges on Codewars has become a routine that helps me steadily
-          sharpen my programming skills.
+          opportunities to enhance my skills. I am particularly attracted to
+          coding for its creativity and potential for innovation.
         </p>
         <p className={classes["about-text"]}>
-          My journey into web development began with learning the basics: HTML,
-          CSS, and JavaScript. It didn’t take long for me to fall in love with
-          creating websites. Although the initial three months were challenging,
-          envisioning the success awaiting in this field kept me going. Four
-          months into my journey, I delved into React and was captivated by its
-          capabilities. Currently, my focus is on continual learning, for me
-          learning new things means one step towards success.
+          As a Junior React Developer, I aspire to be part of a healthy working
+          environment and contribute to the growth of the company I join. I am
+          dedicated to delivering high-quality work and strongly believe in the
+          power of responsibility and effective communication in this field. I
+          am excited about the possibility of applying my skills to a dynamic
+          team.
         </p>
         <p className={classes["about-text"]}>
           As a self-taught programmer, I have developed several projects, which

@@ -12,7 +12,7 @@
 .img {
   width: 100%;
   border-radius: 10px 10px 0 0;
-  border-bottom: 2px solid var(--blue);
+  border-bottom: 1px solid var(--slate-blue);
 }
 .card {
   padding: 5px 10px;
@@ -53,10 +53,7 @@
   height: 12px;
 }
 .projects {
-  background: linear-gradient(to right, var(--pink), var(--blue));
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  color: var(--purple);
   text-align: center;
   font-size: 25px;
   margin-bottom: 25px;

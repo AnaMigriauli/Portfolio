@@ -76,9 +76,21 @@
   width: 0;
   white-space: nowrap;
   overflow: hidden;
-  /* border-right: 3px solid; */
   font-family: "Courier New", monospace;
   animation: typing 5s steps(50, end) forwards, blink 1s step-end infinite;
+}
+.cv-btn {
+  margin-bottom: 20px;
+  padding: 10px 25px;
+  border-radius: 20px;
+  border: 1px solid var(--purple);
+  color: var(--purple);
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: normal;
+  background: #6919ff11;
 }
 
 @keyframes typing {

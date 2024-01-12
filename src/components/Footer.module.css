@@ -1,9 +1,18 @@
 .footer {
   width: 100%;
   height: auto;
-  background-color: var(--black);
+  background: var(--blue);
   padding: 15px 20px;
-  border-top: 1px solid var(--pink);
+  border-top: 1px solid transparent;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    var(--slate-blue),
+    rgba(0, 0, 0, 0)
+  );
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  background-position: 0 top;
 }
 .number {
   color: var(--white);
@@ -33,12 +42,11 @@
   font-size: 12px;
   font-family: "Satisfy", cursive;
 }
-.love {
-  color: var(--pink);
-}
+.love,
 .coffee {
-  color: var(--blue);
+  color: var(--purple);
 }
+
 @media (min-width: 550px) {
   .contact div {
     font-size: 16px;

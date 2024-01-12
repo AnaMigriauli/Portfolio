@@ -28,7 +28,10 @@ const HomePage = ({ menuIsOpen }) => {
     }
     return stars;
   };
-
+  const openCv = () => {
+    const cvUrl = new URL("/Portfolio/my-cv.pdf", window.location.origin);
+    window.open(cvUrl);
+  };
   return (
     <div className={`${classes.homePage} ${menuIsOpen ? classes.blur : ""}`}>
       {renderStars()}
@@ -42,6 +45,11 @@ const HomePage = ({ menuIsOpen }) => {
         <p className={classes.userRole + " " + classes["typing-effect"]}>
           Junior Front-End React developer
         </p>
+
+        <button className={classes["cv-btn"]} onClick={openCv}>
+          Get My Cv
+        </button>
+
         <div className={classes.contactLinks}>
           <a
             className={classes.mailLink}

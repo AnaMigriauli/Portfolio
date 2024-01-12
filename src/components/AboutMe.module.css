@@ -5,13 +5,9 @@
   border-top: 1px solid var(--slate-blue);
 }
 .header {
-  background: linear-gradient(to right, var(--pink), var(--blue));
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  text-align: center;
+  color: var(--purple);
   font-size: 25px;
-  padding: 10px 15px;
+  padding: 10px 0;
   margin-bottom: 15px;
 }
 
@@ -21,10 +17,14 @@
 }
 .icon-container {
   display: flex;
+  border: 1px solid var(--purple);
+  background: #6919ff11;
+  border-radius: 20px;
+  padding: 0 15px;
 }
 
 .icon-container img {
-  width: 8%;
+  width: 5%;
 }
 .figma {
   height: 25px;
@@ -59,9 +59,10 @@
 @media (min-width: 550px) {
   .about-me {
     padding: 30px;
-    border: 1px solid var(--blue);
+    border: 1px solid var(--slate-blue);
     border-radius: 28px;
     margin-top: 90px;
+    background-color: #0c1021;
   }
   .header {
     width: 250px;
@@ -88,7 +89,7 @@
     width: 100%;
   }
   .icon-container img:last-child {
-    width: 85px;
+    width: 50px;
     height: 105px;
   }
 }
