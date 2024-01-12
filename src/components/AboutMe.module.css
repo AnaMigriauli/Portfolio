@@ -1,8 +1,8 @@
 .about-container {
   width: 100%;
-  background: var(--dark-mode);
+  background: var(--blue-02);
   padding: 75px 45px 97px 45px;
-  border-top: 2px solid var(--pink);
+  border-top: 1px solid var(--slate-blue);
 }
 .header {
   background: linear-gradient(to right, var(--pink), var(--blue));
@@ -16,7 +16,7 @@
 }
 
 .about-text {
-  color: var(--blue-01);
+  color: var(--grey);
   font-family: "Satisfy", cursive;
 }
 .icon-container {

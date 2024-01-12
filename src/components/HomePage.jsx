@@ -1,52 +1,45 @@
-import backgroundImage from "../assets/images/martin-katler-o9XN28KdyN8-unsplash.jpg";
 import linkedin from "../assets/images/linkedin.svg";
 import github from "../assets/images/github.svg";
 import mail from "../assets/images/mail.svg";
 import classes from "./HomePage.module.css";
-import { useEffect, useState } from "react";
+
 const HomePage = ({ menuIsOpen }) => {
-  const [scale, setScale] = useState(1); // initial scale value
+  const numberOfStars = 100;
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.scrollY;
-      let scaleValue = 1 + scrollPosition / 3000;
+  const renderStars = () => {
+    let stars = [];
+    for (let i = 0; i < numberOfStars; i++) {
+      const size = Math.random() * 2 + 1;
+      const posX = Math.random() * 100;
+      const posY = Math.random() * 100;
 
-      if (scaleValue > 2) scaleValue = 2;
-      setScale(scaleValue);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+      stars.push(
+        <div
+          key={i}
+          className={classes.star}
+          style={{
+            width: `${size}px`,
+            height: `${size}px`,
+            top: `${posY}%`,
+            left: `${posX}%`,
+          }}
+        />
+      );
+    }
+    return stars;
+  };
 
   return (
-    <div
-      className={`${classes.homePage} ${menuIsOpen ? classes.blur : ""}`}
-      style={{
-        backgroundImage: `url(${backgroundImage})`,
-      }}
-    >
+    <div className={`${classes.homePage} ${menuIsOpen ? classes.blur : ""}`}>
+      {renderStars()}
       <div className={classes["home-page-text"]}>
-        <h1
-          className={classes.greeting + " " + classes["zoom-text"]}
-          style={{ transform: `scale(${scale})` }}
-        >
+        <h1 className={classes.greeting + " " + classes["typing-effect"]}>
           Hi👋, I am
         </h1>
-        <p
-          className={classes.userName + " " + classes["zoom-text"]}
-          style={{ transform: `scale(${scale})` }}
-        >
+        <p className={classes.userName + " " + classes["typing-effect"]}>
           Ana Migriauli
         </p>
-        <p
-          className={classes.userRole + " " + classes["zoom-text"]}
-          style={{ transform: `scale(${scale})` }}
-        >
+        <p className={classes.userRole + " " + classes["typing-effect"]}>
           Junior Front-End React developer
         </p>
         <div className={classes.contactLinks}>

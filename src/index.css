@@ -12,14 +12,18 @@
 :root {
   scroll-behavior: smooth;
 
-  --black: #000;
+  --black: #000000;
   --black--01: rgba(0, 0, 0, 0.4);
   --black-02: #000000e3;
   --grey: #909090;
   --dark-mode: #191919;
   --blue-01: #575a8f;
   --white: #fff;
-  --pink: #e70faa;
-  --blue: #00c0fd;
-  --gardient-color: linear-gradient(to right, var(--pink), var(--blue));
+  --purple-01: #8c6bbc;
+  --purple: #6919ff;
+  --gardient-color: linear-gradient(to right, var(--purple), var(--purple-01));
+
+  --blue: #090a20;
+  --blue-02: #09091e;
+  --slate-blue: #2e364f;
 }
