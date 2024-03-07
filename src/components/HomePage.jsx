@@ -43,7 +43,7 @@ const HomePage = ({ menuIsOpen }) => {
           Ana Migriauli
         </p>
         <p className={classes.userRole + " " + classes["typing-effect"]}>
-          Junior Front-End React developer
+          Front-End React developer
         </p>
 
         <button className={classes["cv-btn"]} onClick={openCv}>

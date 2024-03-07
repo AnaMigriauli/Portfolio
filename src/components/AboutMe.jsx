@@ -24,7 +24,7 @@ const AboutMe = () => {
           coding for its creativity and potential for innovation.
         </p>
         <p className={classes["about-text"]}>
-          As a Junior React Developer, I aspire to be part of a healthy working
+          As a React Developer, I aspire to be part of a healthy working
           environment and contribute to the growth of the company I join. I am
           dedicated to delivering high-quality work and strongly believe in the
           power of responsibility and effective communication in this field. I

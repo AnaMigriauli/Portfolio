@@ -8,8 +8,30 @@ import github from "../assets/images/akar-icons_github-fill.svg";
 import dictionary from "../assets/images/dictionary.png";
 import memoryGame from "../assets/images/Screenshot 2023-11-03 122850.png";
 import ticTacToe from "../assets/images/Screenshot 2023-11-03 115743.png";
+import MultiPageWebsite from "../assets/images/Screenshot 2024-03-07 181511.png";
+import PlanetsFactSite from "../assets/images/Screenshot 2024-03-07 182437.png";
 const Projects = () => {
   const project = [
+    {
+      title: "Planets Fact Site",
+      description:
+        "Planets Fact Site is an educational resource offering detailed information about our solar system's planets.",
+      techStack: ["React, module-css, router, Context API"],
+      liveLink: "https://anamigriauli.github.io/Planets-Fact-Site-React/",
+      codeLink: "https://github.com/AnaMigriauli/Planets-Fact-Site-React",
+      imageUrl: PlanetsFactSite,
+    },
+    {
+      title: "Photosnap Multi Page Website",
+      description:
+        "Photosnap Multi Page Website is a interactive platform that showcases photography portfolios",
+      techStack: ["React, module-css, router"],
+      liveLink:
+        "https://anamigriauli.github.io/Photosnap-Multi-Page-Website-React/",
+      codeLink:
+        "https://github.com/AnaMigriauli/Photosnap-Multi-Page-Website-React",
+      imageUrl: MultiPageWebsite,
+    },
     {
       title: "Tic Tac Toe",
       description:
@@ -40,7 +62,7 @@ const Projects = () => {
     {
       title: "Interactive Card Details Form",
       description:
-        "An interactive card details form allows users to input their credit or debit card information in a user-friendly manner on a website or app.",
+        "An interactive card details form allows users to input their credit or debit card information .",
       techStack: ["React", "CSS"],
       liveLink:
         "https://anamigriauli.github.io/Interactive-Card-Details-Form-React/",
@@ -51,7 +73,7 @@ const Projects = () => {
     {
       title: "To Do List",
       description:
-        "A To Do List is a simple application that helps users manage their tasks. It allows users to create a list of tasks, mark tasks as completed, and delete them from the list.",
+        "To Do List helps users manage their tasks. Create a list of tasks, mark tasks as completed, and delete them .",
       techStack: ["React"],
       liveLink: "https://anamigriauli.github.io/To-Do-React/",
       codeLink: "https://github.com/AnaMigriauli/To-Do-React",
@@ -60,7 +82,7 @@ const Projects = () => {
     {
       title: "Github User Search App",
       description:
-        "App generally allows users to search for GitHub users by their username and view details such as their repositories, stars, followers, following.",
+        "App generally allows users to search for GitHub users by their username and view details.",
       techStack: ["React"],
       liveLink: "https://anamigriauli.github.io/Github-User-Search-App-React/",
       codeLink: "https://github.com/AnaMigriauli/Github-User-Search-App-React",
@@ -69,7 +91,7 @@ const Projects = () => {
     {
       title: "Password Generator App",
       description:
-        "A Password Generator App creates secure and random passwords. This type of application is especially useful for generating strong, complex passwords.",
+        "A Password Generator App creates random passwords.Useful for generating complex passwords.",
       techStack: ["React"],
       liveLink: "https://anamigriauli.github.io/Password-Generator-App-React/",
       codeLink: "https://github.com/AnaMigriauli/Password-Generator-App-React",
